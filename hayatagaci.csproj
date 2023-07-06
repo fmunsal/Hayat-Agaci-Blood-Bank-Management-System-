@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5217D0E3-6369-4660-A382-F80F5B8DB348}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>hayatagaci</RootNamespace>
+    <AssemblyName>hayatagaci</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Monster\OneDrive\Masaüstü\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F87EE2CE27810B7376222D18A0D8E2EF39C6BE3C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>hayatagaci_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmHasAdminPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHasAdminPersonel.Designer.cs">
+      <DependentUpon>FrmHasAdminPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHasAdminPersonelGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHasAdminPersonelGoster.Designer.cs">
+      <DependentUpon>FrmHasAdminPersonelGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHastaneAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHastaneAdmin.Designer.cs">
+      <DependentUpon>FrmHastaneAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanmDetaylar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanmDetaylar.Designer.cs">
+      <DependentUpon>FrmKanmDetaylar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGecmis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGecmis.Designer.cs">
+      <DependentUpon>FrmGecmis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHastaListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHastaListesi.Designer.cs">
+      <DependentUpon>FrmHastaListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHastaneGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHastaneGiris.Designer.cs">
+      <DependentUpon>FrmHastaneGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHastaneOtomasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHastaneOtomasyon.Designer.cs">
+      <DependentUpon>FrmHastaneOtomasyon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIlkEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIlkEkran.Designer.cs">
+      <DependentUpon>FrmIlkEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanDetaylar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanDetaylar.Designer.cs">
+      <DependentUpon>FrmKanDetaylar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanEklemeCikarma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanEklemeCikarma.Designer.cs">
+      <DependentUpon>FrmKanEklemeCikarma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanIstek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanIstek.Designer.cs">
+      <DependentUpon>FrmKanIstek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanMBagisAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanMBagisAl.Designer.cs">
+      <DependentUpon>FrmKanMBagisAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanBHastaneIstek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanBHastaneIstek.Designer.cs">
+      <DependentUpon>FrmKanBHastaneIstek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHasta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHasta.Designer.cs">
+      <DependentUpon>FrmHasta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanMerAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanMerAdmin.Designer.cs">
+      <DependentUpon>FrmKanMerAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanMerAdminPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanMerAdminPersonel.Designer.cs">
+      <DependentUpon>FrmKanMerAdminPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanMerAdminPersonelGoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanMerAdminPersonelGoster.Designer.cs">
+      <DependentUpon>FrmKanMerAdminPersonelGoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanMerkeziGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanMerkeziGiris.Designer.cs">
+      <DependentUpon>FrmKanMerkeziGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKanMerkeziOtomasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKanMerkeziOtomasyon.Designer.cs">
+      <DependentUpon>FrmKanMerkeziOtomasyon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonelYonlendirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonelYonlendirme.Designer.cs">
+      <DependentUpon>FrmPersonelYonlendirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HayatAgaciDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HayatAgaciDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmHasAdminPersonel.resx">
+      <DependentUpon>FrmHasAdminPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHasAdminPersonelGoster.resx">
+      <DependentUpon>FrmHasAdminPersonelGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHastaneAdmin.resx">
+      <DependentUpon>FrmHastaneAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanmDetaylar.resx">
+      <DependentUpon>FrmKanmDetaylar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGecmis.resx">
+      <DependentUpon>FrmGecmis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHastaListesi.resx">
+      <DependentUpon>FrmHastaListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHastaneGiris.resx">
+      <DependentUpon>FrmHastaneGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHastaneOtomasyon.resx">
+      <DependentUpon>FrmHastaneOtomasyon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIlkEkran.resx">
+      <DependentUpon>FrmIlkEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanDetaylar.resx">
+      <DependentUpon>FrmKanDetaylar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanEklemeCikarma.resx">
+      <DependentUpon>FrmKanEklemeCikarma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanIstek.resx">
+      <DependentUpon>FrmKanIstek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanMBagisAl.resx">
+      <DependentUpon>FrmKanMBagisAl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanBHastaneIstek.resx">
+      <DependentUpon>FrmKanBHastaneIstek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHasta.resx">
+      <DependentUpon>FrmHasta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanMerAdmin.resx">
+      <DependentUpon>FrmKanMerAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanMerAdminPersonel.resx">
+      <DependentUpon>FrmKanMerAdminPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanMerAdminPersonelGoster.resx">
+      <DependentUpon>FrmKanMerAdminPersonelGoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanMerkeziGiris.resx">
+      <DependentUpon>FrmKanMerkeziGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKanMerkeziOtomasyon.resx">
+      <DependentUpon>FrmKanMerkeziOtomasyon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonelYonlendirme.resx">
+      <DependentUpon>FrmPersonelYonlendirme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="HayatAgaciDataSet.xsc">
+      <DependentUpon>HayatAgaciDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HayatAgaciDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HayatAgaciDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HayatAgaciDataSet.xss">
+      <DependentUpon>HayatAgaciDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="hayatagaci_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\united.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\womandoctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood-donation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11ww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29km.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aakm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undoss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo11.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
