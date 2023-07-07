@@ -25,15 +25,6 @@ Blood Bank Management is a software application developed in C# to manage blood 
 - Entity Framework 6.4.4 or higher
 - SQL Server (version X.X or higher) for the database
 
-## Contributing
-
-Contributions to the Blood Bank Management project are welcome. If you want to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push the branch to your fork.
-4. Submit a pull request with a description of your changes.
-
 ## License
 
 Blood Bank Management is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
