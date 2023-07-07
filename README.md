@@ -37,10 +37,6 @@ Blood Bank Management is a software application developed in C# to manage blood 
 
 <img src="Resources/AutomationPhoto/5.jpg" alt="alt text" width="620" height="380">
 
-<img src="Resources/AutomationPhoto/6.jpg" alt="alt text" width="620" height="380">
-
-<img src="Resources/AutomationPhoto/7.jpg" alt="alt text" width="620" height="380">
-
 ## License
 Resources/AutomationPhoto
 Blood Bank Management is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
