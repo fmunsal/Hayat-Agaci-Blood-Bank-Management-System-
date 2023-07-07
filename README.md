@@ -27,15 +27,15 @@ Blood Bank Management is a software application developed in C# to manage blood 
 
 ## Screenshots: Visual Overview of the Blood Bank Management System
 
-![Blood Bank Management Interface](Resources/AutomationPhoto/1.jpg)
+<img src="Resources/AutomationPhoto/1.jpg" alt="alt text" width="320" height="180">
 
-2![Blood Bank Management Interface](Resources/AutomationPhoto/2.jpg)
+<img src="Resources/AutomationPhoto/2.jpg" alt="alt text" width="520" height="280">
 
-![Blood Bank Management Interface](Resources/AutomationPhoto/3.jpg)
+<img src="Resources/AutomationPhoto/3.jpg" alt="alt text" width="620" height="380">
 
-![Blood Bank Management Interface](Resources/AutomationPhoto/4.jpg)
+<img src="Resources/AutomationPhoto/4.jpg" alt="alt text" width="620" height="380">
 
-![Blood Bank Management Interface](Resources/AutomationPhoto/5.jpg)
+<img src="Resources/AutomationPhoto/5.jpg" alt="alt text" width="620" height="380">
 
 ## License
 Resources/AutomationPhoto
