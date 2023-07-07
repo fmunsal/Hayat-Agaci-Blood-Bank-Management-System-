@@ -1,5 +1,4 @@
-# Hayat-Agaci-Blood-Bank-Management-System-
-# Blood Bank Management
+# Hayat-Agaci-(Blood-Bank-Management-System)-
 
 Blood Bank Management is a software application developed in C# to manage blood donation and inventory in a blood bank. The application provides functionalities to record donor information, track blood units, and manage blood requests.
 
