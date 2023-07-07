@@ -25,7 +25,14 @@ Blood Bank Management is a software application developed in C# to manage blood 
 - Entity Framework 6.4.4 or higher
 - SQL Server (version X.X or higher) for the database
 
+## Screenshots: Visual Overview of the Blood Bank Management System
+
 ![Blood Bank Management Interface](Resources/AutomationPhoto/1.jpg)
+![Blood Bank Management Interface](Resources/AutomationPhoto/main.jpg)
+![Blood Bank Management Interface](Resources/AutomationPhoto/2.jpg)
+![Blood Bank Management Interface](Resources/AutomationPhoto/3.jpg)
+![Blood Bank Management Interface](Resources/AutomationPhoto/4.jpg)
+![Blood Bank Management Interface](Resources/AutomationPhoto/5.jpg)
 ## License
 Resources/AutomationPhoto
 Blood Bank Management is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
